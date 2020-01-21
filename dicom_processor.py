@@ -17,7 +17,7 @@ from pathlib import Path
 import warnings
 warnings.filterwarnings("ignore")
 
-# Populate a emphasis **lstFilesDcm** with te filenames of the DICOM files under a given **PathDicom** directory:
+# Populate a lstFilesDcm with filenames of the DICOM files under a given PathDicom directory:
 
 Path("./DATASET").mkdir(parents=True, exist_ok=True)
 
@@ -40,7 +40,7 @@ if not lstFilesDCM:
             lstFilesDCM.append(os.path.join(dirName,filename))
             #DO NOT check wheter the file's DICOM
 
-# Loop through files, read metadata, allocate a numpy array and load data in that numpy array:
+# Loop through files, allocate a numpy array and load data in that numpy array, append numpy array to 'elements' list:
 
 elements = []
 # loop through all the DICOM files
