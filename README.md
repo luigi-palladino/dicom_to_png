@@ -6,7 +6,7 @@ HOW TO:
 2. Choose dicom folder through dialog;
 3. When it's done, check './DATASET' folder for your png images.
 
-This script handle both screenshot and clip dicoms.
+This script handles both screenshot and clip dicoms.
 
 Based on:
 https://gist.github.com/somada141/8dd67a02e330a657cf9e
